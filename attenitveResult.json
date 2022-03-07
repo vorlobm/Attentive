@@ -1,0 +1,68 @@
+Top-level product
+{
+   "name": string, *
+   "id": string, *
+   "description": string,
+   "brand": string,
+   "link": string, *
+   "lastUpdated": timestamp, *
+   "categories": Array<string>,
+   "tags": Array<string>,
+   "productOptions": Array<ProductOption>,
+   "images": Array<Image>,
+   "attributes": Array<Attribute>
+   "variants": Array<Variant> *,
+   "collections": Array<String>
+}
+
+Product Option
+{
+   "name": string, *
+   "position": int, *
+   "values": Array<string> *
+}
+
+Image
+{
+   "position": int,
+   "alt": string,
+   "src": string, *
+   "width": int,
+   "height": int,
+   "variantIds": Array<string>
+}
+
+Attribute
+{
+   "name": string, *
+   "value": string *
+}
+
+Variant
+{
+   "name": string, * full name
+   "id": string, *
+   "position": int,
+   "prices": Array<Price>,
+   "availabileForPurchase": boolean, *
+   "inventoryQuantity": int,
+   "productOptionValues": Array<ProductOptionValue>,
+   "link": string, *
+   "lastUpdated": timestamp, *
+   "attributes": Array<Attribute>
+}
+
+Product Option Value
+{
+   "productOptionName": string, *
+   "value": string *
+}
+
+Price
+{
+   "currencyCode": string, *
+   "amount": string, *
+   "activeTime": timestamp,
+   "expirationTime": timestamp,
+   "compareAtPrice": string,
+}

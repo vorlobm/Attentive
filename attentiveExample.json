@@ -1,0 +1,66 @@
+{
+  "name": "Nasa T-Shirt",
+  "id": "PD-123", *
+  "description": "A very popular T-Shirt",
+  "brand": "NASA",
+  "link": "https://www.google.com", *
+  "lastUpdated": "2021-10-05T18:08:28+00:00",
+  "categories": ["Shirts"],
+  "tags": ["Summer Sale", "Space"],
+  "productOptions": [
+  {"name": "Color", "position": 0, "values: ["Blue", "Black"]"},
+   {"name": "Size", "position": 1, "values: ["Small", "Medium", "Large"]"},
+ ],
+"images": [
+  {"src": "https://www.google.com", alt: "Picture of Nasa T-Shirt in Blue", position: 0, "height": 250, "width": 400, "variantIds": ["VD-234"]},
+  {"src": "https://www.google.com", alt: "Another Picture of Nasa T-Shirt in Black", position: 0, "height": 250, "width": 400, "variantIds": ["VD-235", "VD-236"]}
+  ],
+   "attributes": [{"name": "Fabric", "value": "Cotton"}],
+   "variants": [
+   {
+     "name": "Nasa T-Shirt - Blue - Small",
+     "id": "VD-234",
+     "position": 0,
+     "prices": [
+     {"currencyCode": "USD", "amount": "10.00"}
+     ],
+     "availableForPurchase": true,
+     "productOptionValues": [
+     {"productOptionName": "Color", "value": "Blue"},
+     {"productOptionName": "Size", "value": "Small"},
+     ],
+     "link": "https://www.google.com",
+     "lastUpdated": 2021-10-05T18:08:28+00:00,
+   },
+   {
+     "name": "Nasa T-Shirt - Black - Medium",
+     "id": "VD-235",
+     "position": 1,
+     "prices": [
+     {"currencyCode": "USD", "amount": "10.00"}
+     ],
+     "availableForPurchase": true,
+     "productOptionValues": [
+     {"productOptionName": "Color", "value": "Black"},
+     {"productOptionName": "Size", "value": "Medium"},
+     ],
+     "link": "https://www.google.com",
+     "lastUpdated": 2021-10-05T18:08:28+00:00,
+   },
+   {
+     "name": "Nasa T-Shirt - Black - Large",
+     "id": "VD-236",
+     "position": 2,
+     "prices": [
+     {"currencyCode": "USD", "amount": "10.00"}
+     ],
+     "availableForPurchase": true,
+     "productOptionValues": [
+     {"productOptionName": "Color", "value": "Black"},
+     {"productOptionName": "Size", "value": "Large"},
+     ],
+     "link": "https://www.google.com",
+     "lastUpdated": 2021-10-05T18:08:28+00:00,
+   }
+   ]
+  }

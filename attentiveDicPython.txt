@@ -1,0 +1,54 @@
+
+ToplevelProduct = [{
+    "name": "",
+    "id": "",
+    "description": "",
+    "brand": "",
+    "link": "",
+    "lastUpdated": datetime.date,
+    "categories": [],
+    "tags": [],
+    "productOptions":
+    {
+        "name": "", 
+        "position": 0,
+        "productOptionValue":
+            {
+                "productOptionName": "",
+                "value": ""
+            }
+    },
+    "images": 
+    {
+        "position": 0,
+        "alt": "",
+        "src": "",
+        "width": 0,
+        "height": 0,
+        "variantIds": []
+    },
+    "attributes":
+    {
+        "name": "",
+        "value": ""
+    },
+   "variants": 
+   {
+       "name": "",
+       "id": "",
+       "position": 0,
+       "prices": 
+        {
+            "currencyCode": "", 
+            "amount": "",
+            "activeTime": datetime.date,
+            "expirationTime":datetime.date,
+            "compareAtPrice": "",
+        },
+       "availabileForPurchase": True,
+       "inventoryQuantity": 0,
+       "productOptionValues": [],
+       "attributes": []
+   },
+   "collections": []
+}]
